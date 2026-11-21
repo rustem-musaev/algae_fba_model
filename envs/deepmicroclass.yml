@@ -1,0 +1,12 @@
+# DeepMicroClass is installed with pip (it is not on bioconda).
+# For a GPU node, swap "pytorch-cpu" for a CUDA build of pytorch and run with --deepmicroclass_device cuda
+name: deepmicroclass
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch-cpu
+  - pip:
+      - DeepMicroClass
+      - requests
