@@ -1,4 +1,4 @@
-# eukprok-nf
+# eukprokfba-nf
 
 This is the "Eukaryotic + Prokaryotic Metagenomes" protocol turned into a Nextflow pipeline.
 You give it sequencing reads. It runs every step from assembly to annotated, taxonomically labelled eukaryotic bins. Each step's results go into its own numbered folder. I made the Nextflow pipeline after the fact to make it reproducible, the actual analyses were performed by running the scripts separately.
